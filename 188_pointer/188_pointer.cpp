@@ -18,5 +18,7 @@ int main()
 
 	mahasiswa& ref = mhs;	//Pointer Reference refMhs
 	ref.nim = 2;			//Member Operator
-	
+	mhs.ShowNim();
+
+	mahasiswa* pMhs = &mhs; //Pointer Deference Pmhs
 }
