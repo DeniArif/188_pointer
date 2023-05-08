@@ -21,7 +21,8 @@ int main()
 	mhs.ShowNim();
 
 	mahasiswa* pMhs = &mhs; //Pointer Deference Pmhs
-	pMhs->mim = 3;			//Arrow Opperator
+	pMhs->nim = 3;			//Arrow Opperator
 	mhs.ShowNim();
 	system("pause");
+	return 0;
 }
